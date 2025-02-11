@@ -1,0 +1,1066 @@
+/*home começo */
+/*cabeçalho */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu .barramenu {
+  background-color: #02baf7;
+  height: 60px;
+  color: #fff;
+}
+
+#menu .linksmenu,
+#menu .logomenu {
+  color: #fff;
+}
+#menu .iconecel {
+  color: #fff;
+}
+#menu .barracel {
+  background: #02baf7;
+}
+#menu .logomenu img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+#menu a:hover {
+  color: #1602f7;
+}
+
+/*carrossel*/
+
+#corpo .fotosbanner img {
+  height: 500px;
+}
+
+/*roda pe*/
+footer {
+  text-align: center;
+}
+
+
+#rodape h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media(max-width:600px){
+  .redesIndex{
+  position:relative;
+  left:50px
+  }
+}@media(max-width:600px){
+  .redesSobrenos{
+  position:relative;
+  left:30px
+  }
+}
+/*quem somos*/
+
+#quemsomos img {
+  width: 1295px;
+}
+#quemsomos h1,
+#produtos h1,
+#contato h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+@media(max-width:600px){
+  #quemsomos h1,
+#produtos h1,
+#contato h1 {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0;
+  font-weight: bold;
+}
+}
+#quemsomos h2 {
+  text-align: center;
+  font-weight: bold;
+  }
+#quemsomos .text1quemsomos p{
+    font-size:30px;
+    text-align: justify;
+    margin-top:30px ;
+}
+#quemsomos .col-sm-12 {
+  text-align: center;
+}
+/*produtos*/
+
+
+@media(max-width:600px ){
+ .colunaProdutos{ 
+  width: 350px;
+}
+
+}
+@media(max-width:600px ){
+ .colunaProdutos2{ 
+  width: 300px;
+ 
+
+border: 1px solid black;}
+
+}
+
+/* capa posicionador */
+
+.roloPagina img{
+  position: relative;
+  left: 30px;
+  margin-bottom: 24px;
+}
+.roloPosicionador h2 {
+  text-align: center;
+}
+.roloPosicionador p {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.roloPosicionadorImgPagina {
+  position: relative;
+  left:480px;
+  text-align: center; 
+
+  width: 350px;
+}
+.roloPosicionadorImg {
+
+  border: none;
+
+}
+.roloPosicionador {
+  width: 300px;
+  border: none;
+
+}
+.txtroloPosicionador h2 {
+  text-align: center;
+  font-weight: bold;
+  width: 10px;
+}
+@media(max-width:600px){
+  .txtroloPosicionador {
+    width: 300px;
+    position: relative;
+    right: 30px;
+  }
+}@media(max-width:600px){
+  .roloPagina  {
+  position: relative;
+  right: 32px;
+  width: 300px;
+  }
+}@media(max-width:600px){
+  .roloPagina p {
+    position: relative;
+    left:30px
+}}
+.txtroloPosicionador p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+ /* Saco para roupas  */
+.sacoParaRoupas h2 {
+  text-align: center;
+}
+.sacoParaRoupas p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+
+
+.sacoParaRoupasImgPagina {
+  position: relative;
+  left:480px;
+  text-align: center; 
+  border: none;
+  width: 300px;
+}
+.sacoParaRoupasImg {
+  border: none;
+}
+.txtSacoParaRoupas h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtSacoParaRoupas p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.card{
+  border: none;
+}
+@media(max-width: 600px){
+  .txtSacoParaRoupas {
+  
+    width: 330px;
+  }
+}@media(max-width: 600px){
+  .sacoParaRoupas  {
+  
+    width: 330px;
+  }
+}
+@media(max-width: 600px){
+  .sacoParaRoupasImgPagina img{
+    width: 300px;
+    position: relative;
+    left: 20px;
+  }
+}
+
+/*chinelo*/
+
+
+.chineloImgP img{
+  position: relative;
+  left: 30px;
+  margin-bottom: 24px;
+ 
+}
+.chinelo h2 {
+  text-align: center;
+}
+.chinelo p {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.chineloImgPagina {
+  position: relative;
+  left:480px;
+  text-align: center; 
+
+  width: 300px;
+}
+.chineloImg {
+
+  border: none;
+
+}
+.chinelo {
+  width: 300px;
+  position: relative;
+  left:150px
+
+}
+.txtChinelo h2 {
+  text-align: center;
+  font-weight: bold;
+  width: 10px;
+}
+.txtroloPosicionador p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+@media(max-width:600px){
+  .txtChinelo {
+    width: 300px;
+    position: relative;
+    right: 30px;
+  }
+}
+@media(max-width:600px){
+  .chinelo  {
+  position: relative;
+  right: 150px;
+  width: 204px;
+  }
+}
+@media(max-width:600px){
+  .chineloImgP  {
+    position: relative;
+    right:190px;
+    width:300px;
+}}
+@media(max-width:600px){
+  .chineloImgP p {
+    position: relative;
+    left:38px
+}}
+
+
+
+
+
+
+
+
+
+/*sacolas*/
+@media(max-width:600px){
+  .sacolaTitulo{
+    position: relative;
+    left: 20px;
+  }
+}
+.sacolas h2 {
+  text-align: center;
+}
+.sacolas p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.sacolasImg{
+  border: none;
+}
+
+.sacolasImgPagina {
+
+  position: relative;
+  left:480px;
+  width: 300px;
+  text-align: center;
+}
+.txtSacolas h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtSacolas p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+  .txtSacolas p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 320px;
+}
+}
+@media(max-width:600px){
+  .txtSacolas  {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 340px;
+}
+}
+@media(max-width:600px){
+  .sacolaTitulo  {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 340px;
+}
+}
+
+/*Fronha*/
+
+
+
+.fronha h2 {
+  text-align: center;
+}
+.fronha p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.fronha {
+  margin-top:30px;
+  
+}
+.fronhaImg {
+  border: none;
+}
+.fronhaImgPagina {
+  position: relative;
+  left:430px;
+  text-align: center;
+}
+.txtFronha h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtFronha p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+.fronhaImgPagina{
+    position: relative;
+    width: 320px;
+    border: 1px solid green;
+}
+}@media(max-width:600px){
+  .txtFronha p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 320px;
+}
+}
+@media(max-width:600px){
+  .txtFronha  {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 340px;
+}
+}
+
+/*Lençol com elastico*/
+
+.lencol h2 {
+  text-align: center;
+}
+.lencol p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.lencolImg{
+  border: none;
+
+}
+.lencolImgPagina {
+  position: relative;
+  left:430px;
+  text-align: center;
+}
+.lencolImgPagina img{
+  width: 350px;
+}
+.txtLencol h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtLencol p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+  .txtLencol  {
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .txtLencol p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .lencolImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+@media(max-width:600px){
+  .lencolImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+
+/*Lençol sem elastico*/
+
+.lencolSemElastico h2 {
+  text-align: center;
+}
+.lencolSemElastico p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.lencolSemElasticoImgPagina img{
+  width: 350px;
+}
+.lencolSemElasticoImg{
+  border: none;
+}
+.lencolSemElasticoImgPagina {
+  position: relative;
+  left:350px;
+  text-align: center;
+}
+.txtLencolSemElastico h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtLencolSemElastico p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+  .txtLencolSemElastico  {   
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .txtLencolSemElastico p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .lencolSemElasticoImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+@media(max-width:600px){
+  .lencolSemElasticoImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+
+
+/*capa prioritaria*/
+
+.capaPrioritaria h2 {
+  text-align: center;
+}
+.capaPrioritaria p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.capaPrioritariaImg {
+  border: none;
+}
+.capa_prioritaria{
+  margin-top: 60px;
+
+}
+.capaPrioritariaImgPagina {
+    text-align: center;
+    position: relative;
+   
+  
+}
+.txtCapaPrioritaria h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtCapaPrioritaria p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+@media(max-width:600px){
+  .txtCapaPrioritaria  {   
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .txtCapaPrioritaria p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 20px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .capaPrioritariaImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+@media(max-width:600px){
+  .capaPrioritariaImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+
+
+
+/*Avental*/
+
+.avental h2 {
+  text-align: center;
+}
+.avental p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.aventalImg{
+  border: none;
+}
+.aventalImgPagina {
+  position: relative;
+  left:430px;
+  text-align: center;
+}
+.txtAvental h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtAvental p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+  .txtAvental  {   
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .txtAvental p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 20px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .aventalImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+@media(max-width:600px){
+  .aventalImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+/*Colar cervical*/
+
+.colarCervical h2 {
+  text-align: center;
+}
+.colarCervical p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.colarCervicalImg {
+  border: none;
+}
+.colarCervicalImgPagina {
+    text-align: center;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+}
+.txtColarCervical h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtColarCervical p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+@media(max-width:600px){
+  .txtColarCervical  {   
+    position: relative;
+    right: 30px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .txtColarCervical p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 20px;
+    width: 350px;
+}
+}
+@media(max-width:600px){
+  .colarCervicalImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+
+@media(max-width:600px){
+  .colarCervicalImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+/*Tipoia bilateral*/
+
+.tipoiaBilateral h2 {
+  text-align: center;
+}
+.tipoiaBilateral p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.tipoiaBilateralImg {
+  border: none;
+}
+.tipoiaBilateralImg {
+  text-align: center;
+  position: relative;
+  left: 95px;
+}
+
+
+.txtTipoiaBilateral h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txtTipoiaBilateral p {
+  text-align: justify;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+
+
+@media(max-width:600px){
+  .tipoiaBilateralImg {
+position: relative;
+left: -10px;
+
+}
+}@media(max-width:600px){
+  .txtTipoiaBilateral p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 390px;
+}
+}
+@media(max-width:600px){
+  .tipoiaBilateralImgPagina img{
+    text-align: center;
+    width: 250px;
+  }
+}
+@media(max-width:600px){
+  .tipoiaBilateralImgPagina {
+    text-align: center;
+    width: 250px;
+  }
+}
+
+/*contato*/
+
+#contato .botaoenviar {
+  background: #02baf7;
+  color: #fff;
+}
+#contato .botaoenviar:hover {
+  background: #1602f7;
+}
+.inputsform{
+  margin: 20px 0;
+}
+#contato .formcontato {
+  width: 700px;
+}
+.span-required{
+  display:none;
+  font-size: 12px;
+  margin: 5px 0 10px 1px;
+  color: red;
+}
+textarea{
+  height: 200px;
+  resize: none;
+}
+
+
+
+#rodape .redes .face {
+  text-align: end;
+  font-size: 30px;
+}#rodape .redes .insta {
+
+  font-size: 30px;
+}
+#rodape .redes .insta {
+  text-align: left;
+}
+#rodape .titredes p {
+  position: relative;
+  right:15px
+}
+footer .rodaindex {
+  margin-top: 140px;
+}
+footer .rodapesobre {
+  margin-top: 320px;
+}
+footer .rodapecontato {
+  margin-top: 150px;
+}
+
+/*MEDIA CABEÇALHO*/
+@media (max-width: 600px) {
+  #menu .logo {
+    width: 460px;
+  }
+}
+@media (max-width: 600px) {
+  #menu .logomenu img {
+    width: 460px;
+    margin-top: -7px;
+  }
+}
+@media (max-width: 600px) {
+  #menu .titulocel img {
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  #menu .menucorpocel {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 600px) {
+  #corpo .fotosbanner img {
+    height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  #corpo .fotosbanner {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 600px) {
+  footer .rodaindex {
+    margin-top: 100px;
+  }
+}
+
+/*MEDIA quem somos*/
+@media (max-width: 600px) {
+  #quemsomos img {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  #quemsomos h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  #quemsomos h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 600px) {
+  #quemsomos .text1quemsomos p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+/*MEDIA produtos*/
+
+@media (min-width: 600px) {
+  #produtos .colar {
+    width: 302px;
+    position: relative;
+    left: 40px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  #produtos .capaPosicionadorImg  {
+    width: 302px;
+    position: relative;
+    left: 40px;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .capaPosicionadorImg img  {
+  width: 300px;
+    position: relative;
+    right: 60px;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .tipoia {
+    width: 310px;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .capalisa {
+    width: 270px;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .row {
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #produtos .corpoproduto {
+    position: relative;
+    left: 45px;
+    width: 330px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  #produtos .aventalcorpo {
+    width: 310px;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .capacorpo {
+    width: 310px;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .colarcorpo {
+    width: 310px;
+  }
+}
+@media (max-width: 600px) {
+  #produtos .capalisacorpo {
+    width: 310px;
+  }
+}
+/*MEDIA Contato*/
+@media (min-width: 600px) {
+  #contato .formcontato {
+    position: relative;
+    left: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  #contato .titredes {
+    position: relative;
+    left: 280px;
+  }
+}
+
+@media (max-width: 600px) {
+  #contato .botaoenviar {
+    width: 360px;
+  }
+}
+
+/*MEDIA REDES*/
+@media (max-width: 600px) {
+footer {
+  position: relative;
+  right: 10px;
+  }
+}@media (max-width: 600px) {
+  #rodape .redes .face {
+    text-align: end;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  #rodape p {
+    width:350px;
+    position: relative;
+    right:10px;
+  }
+}
+@media (max-width: 600px) {
+  #rodape h4 {
+    width:230px;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #rodape .redes  {
+    text-align: left;
+    width: 50px;
+    position: relative;
+    right:20px;
+  }
+}
+@media (max-width: 600px) {
+  #rodape .redes .insta {
+    text-align: center;
+    width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  #rodape .row {
+    text-align: center;
+    width: 350px;
+    position: relative;
+    right: 30px;
+  }
+}
+@media (max-width: 600px) {
+  footer .rodapesobre {
+    margin-top: 130px;
+  }
+}
+@media (max-width: 600px) {
+  footer .rodapecontato {
+    margin-top: 80px;
+  }
+}
