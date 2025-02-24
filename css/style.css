@@ -220,12 +220,15 @@ border: 1px solid black;}
   
     width: 330px;
   }
-}@media(max-width: 600px){
+}
+@media(max-width: 600px){
   .sacoParaRoupas  {
-  
     width: 330px;
+    position: relative;
+    left: 20px;
   }
 }
+
 @media(max-width: 600px){
   .sacoParaRoupasImgPagina img{
     width: 300px;
@@ -266,7 +269,8 @@ border: 1px solid black;}
 .chinelo {
   width: 300px;
   position: relative;
-  left:150px
+  left:50px;
+  margin-top: 71px;
 
 }
 .txtChinelo h2 {
@@ -299,7 +303,7 @@ border: 1px solid black;}
 @media(max-width:600px){
   .chinelo  {
   position: relative;
-  right: 150px;
+  left: 166px;
   width: 204px;
   }
 }
@@ -330,13 +334,17 @@ border: 1px solid black;}
     left: 20px;
   }
 }
+.sacolas{
+  position: relative;
+  left:120px
+}
 .sacolas h2 {
   text-align: center;
 }
 .sacolas p {
   text-align: center;
   font-size: 25px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .sacolasImg{
@@ -344,11 +352,11 @@ border: 1px solid black;}
 }
 
 .sacolasImgPagina {
-
-  position: relative;
-  left:480px;
   width: 300px;
   text-align: center;
+  position: relative;
+  left: 480px
+  
 }
 .txtSacolas h2 {
   text-align: center;
@@ -359,6 +367,12 @@ border: 1px solid black;}
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
+}
+@media(max-width:600px){
+  .sacolas{
+    position: relative;
+    left:10px
+  }
 }
 @media(max-width:600px){
   .txtSacolas p {
@@ -407,7 +421,7 @@ border: 1px solid black;}
 }
 .fronhaImgPagina {
   position: relative;
-  left:430px;
+  left:480px;
   text-align: center;
 }
 .txtFronha h2 {
@@ -525,7 +539,7 @@ border: 1px solid black;}
 }
 .lencolSemElasticoImgPagina {
   position: relative;
-  left:350px;
+  left:405px;
   text-align: center;
 }
 .txtLencolSemElastico h2 {
@@ -663,7 +677,7 @@ border: 1px solid black;}
 }
 .aventalImgPagina {
   position: relative;
-  left:430px;
+  left:490px;
   text-align: center;
 }
 .txtAvental h2 {
@@ -723,7 +737,7 @@ border: 1px solid black;}
     text-align: center;
     width: 1000px;
     position: relative;
-    left: 250px;
+    left: 300px;
 }
 .txtColarCervical h2 {
   text-align: center;
@@ -782,8 +796,7 @@ border: 1px solid black;}
 }
 .tipoiaBilateralImg {
   text-align: center;
-  position: relative;
-  left: 95px;
+  
 }
 
 
